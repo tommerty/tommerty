@@ -9,11 +9,9 @@ Hey! 👋
 ---
 
 ### Current Projects @ [Gezel.io](https://Gezel.io)
-- 🙅[Gezel.Me](https://gezel.me) ... a one link social profile, rivalling alternatives like Linktree
+- 🙅[Mystlink](https://mystl.ink) ... a one link social profile, rivalling alternatives like Linktree
 - 🎥[YouTube Channel Rewards](https://github.com/gezelio/YTCR-Streamerbot) ... A StreamerBot integration and Chrome Extension to bring Channel Points to YouTube (like Twitch)
-
-### Personal Projects
-- 🧑‍💻[Streamerbot extensions and tutorials](https://github.com/TommoFromGezel/Streamerbot-actions) ... One repository for all my [IRLCreate](https://youtube.com/irlcreate) tutorials
+- 🤖[Gezel Bot](https://bot.gezel.io) ... A Discord bot for YouTube and Twitch live streamers with additional moderation functionality for your community and engagement
 
 ### Work Life
 - 🗃️[WP Engine](https://wpengine.com) ... Technical Support Specialist
@@ -24,9 +22,12 @@ Hey! 👋
 <a href="https://twitter.com/irlcreate" target="_blank">
 <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
 </a>
+<a href="https://fosstodon.org/@gezel" target="_blank">
+<img src=https://img.shields.io/badge/mastodon-%6364ff.svg?&style=for-the-badge&logo=mastodon&logoColor=white alt=mastodon style="margin-bottom: 5px;" />
+</a>
 <a href="https://www.youtube.com/irlcreate" target="_blank">
 <img src=https://img.shields.io/badge/youtube-%23EE4831.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
 </a>  
 </div>
 
-![Github stats](https://github-readme-stats.vercel.app/api?username=tommofromgezel)
+![Github stats](https://github-readme-stats.vercel.app/api?username=tommerty)
