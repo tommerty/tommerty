@@ -10,7 +10,7 @@ Hey! 👋 I'm Tommy, nice to meet ya!
 - 🎥[YouTube Channel Rewards](https://github.com/gezelio/YTCR-Streamerbot) ... A StreamerBot integration and Chrome Extension to bring Channel Points to YouTube (like Twitch)
 
 ### Work Life
-- :octocat: [GitHub](https://github.com)
+- :octocat: [GitHub](https://github.com) - Support Engineer
 ---
 
 ## Public GitHub Stats ⭐️
