@@ -1,6 +1,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tommerty&label=Profile%20views&color=0e75b6&style=flat" alt="tommerty" /> </p>
 <h1 align="center">Hi 👋, I'm Tommerty</h1>
-<h3 align="center">Passionate about Tailwind, Docker, and frontend development</h3>
+<h3 align="center">Passionate about Tailwind and frontend development</h3>
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tommerty&" alt="tommerty" /></p>
 <div align="center">
