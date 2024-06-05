@@ -19,3 +19,6 @@
 ⚡ Fun fact **I never thought I'd end up in tech as I studied to be a sound engineer**
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tommerty&show_icons=true&locale=en" alt="tommerty" /></p>
+
+### Status Checks
+[![Twitch Live Status](https://github.com/tommerty/tommerty/actions/workflows/livestream.yml/badge.svg)](https://github.com/tommerty/tommerty/actions/workflows/livestream.yml)
