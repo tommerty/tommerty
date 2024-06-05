@@ -31,10 +31,9 @@ jobs:
         
         # Add new socials between the comments
         socials=$(curl -s https://api.doras.to/user/tommerty/links | jq -r '.[] | select(.show == true) | "- [" + .name + "](" + .url + ")"')
-        echo "$socials" > socials.tmp
-        sed -i '/<!-- Social Start -->/r socials.tmp' README.md
-        sed -i '/<!-- Social Start -->/a <!-- Socials End -->' README.md
-        rm socials.tmp
+        echo "<!-- Social Start -->" >> README.md
+        echo "$socials" >> README.md
+        echo "<!-- Socials End -->" >> README.md
 
     - name: Commit changes
       run: |
