@@ -11,10 +11,3 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 
 ### My Socials (Fetched from my [Doras profile](https://doras.to/tommerty))
 
-<!-- Social Start -->
-
-<!-- Social End -->
-
----
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tommerty&show_icons=true&locale=en" alt="tommerty" /></p>
