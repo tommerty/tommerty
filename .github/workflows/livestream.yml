@@ -13,19 +13,38 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4.1.6
 
+    - name: Set up Node.js
+      uses: actions/setup-node@v4.0.2
+      with:
+        node-version: 'latest'
+
+    - name: Install dependencies
+      run: npm install tmi.js
+
     - name: Check Twitch live status
       id: twitch-status
       env:
         TWITCH_USERNAME: tommertyboi
       run: |
-        LIVE_STATUS=$(curl -s -H "Accept: application/vnd.twitchtv.v5+json" \
-          -X GET "https://api.twitch.tv/kraken/streams/$TWITCH_USERNAME")
-        
-        if [ "$(echo $LIVE_STATUS | jq -r '.stream')" != "null" ]; then
-          echo "live_status=true" >> $GITHUB_OUTPUT
-        else
-          echo "live_status=false" >> $GITHUB_OUTPUT
-        fi
+        const tmi = require('tmi.js');
+        const client = new tmi.Client();
+
+        client.connect().then(() => {
+          client.api({
+            url: `https://api.twitch.tv/helix/streams?user_login=${process.env.TWITCH_USERNAME}`,
+            method: 'GET',
+          }).then((response) => {
+            const isLive = response.data.length > 0;
+            console.log(`live_status=${isLive}`);
+            process.exit(0);
+          }).catch((error) => {
+            console.error('Error checking live status:', error);
+            process.exit(1);
+          });
+        }).catch((error) => {
+          console.error('Error connecting to Twitch:', error);
+          process.exit(1);
+        });
 
     - name: Update README
       env:
@@ -33,7 +52,7 @@ jobs:
       run: |
         if [ "$LIVE_STATUS" == "true" ]; then
           if ! grep -q "Twitch Live Banner" README.md; then
-            sed -i '1i\[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommerty)' README.md
+            sed -i '1i\[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/${process.env.TWITCH_USERNAME})' README.md
           fi
         else
           sed -i '/^!\[Twitch Live Banner/d' README.md
@@ -41,8 +60,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --local user.email "tommerty+2@github.com"
-        git config --local user.name "Other Tommy"
+        git config --local user.email "tommerty@github.com"
+        git config --local user.name "Tommerty"
         git add README.md
         git diff-index --quiet HEAD || git commit -m "Update Twitch live status in README"
 

@@ -1,4 +1,3 @@
-[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommerty)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tommerty&label=Profile%20views&color=0e75b6&style=flat" alt="tommerty" /> </p>
 <h1 align="center">Hi 👋, I'm Tommerty</h1>
 <h3 align="center">Passionate about Tailwind and frontend development</h3>
