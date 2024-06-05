@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4.1.6
 
     - name: Check Twitch live status
       id: twitch-status
@@ -22,9 +22,9 @@ jobs:
           -X GET "https://api.twitch.tv/kraken/streams/$TWITCH_USERNAME")
         
         if [ "$(echo $LIVE_STATUS | jq -r '.stream')" != "null" ]; then
-          echo "::set-output name=live_status::true"
+          echo "live_status=true" >> $GITHUB_OUTPUT
         else
-          echo "::set-output name=live_status::false"
+          echo "live_status=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Update README
@@ -32,17 +32,19 @@ jobs:
         LIVE_STATUS: ${{ steps.twitch-status.outputs.live_status }}
       run: |
         if [ "$LIVE_STATUS" == "true" ]; then
-          sed -i '1i\[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommerty)' README.md
+          if ! grep -q "Twitch Live Banner" README.md; then
+            sed -i '1i\[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommerty)' README.md
+          fi
         else
-         sed -i '/^!\[Twitch Live Banner/d' README.md
+          sed -i '/^!\[Twitch Live Banner/d' README.md
         fi
 
     - name: Commit changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "tommerty+2@github.com"
+        git config --local user.name "Other Tommy"
         git add README.md
-        git commit -m "Update Twitch live status in README"
+        git diff-index --quiet HEAD || git commit -m "Update Twitch live status in README"
 
     - name: Push changes
       uses: ad-m/github-push-action@master
