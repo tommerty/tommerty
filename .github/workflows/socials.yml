@@ -1,0 +1,46 @@
+name: Update Socials
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *' # Runs every 24 hours
+  workflow_dispatch:
+
+jobs:
+  update-socials:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4.1.6
+
+    - name: Fetch socials
+      id: fetch-socials
+      run: |
+        socials=$(curl -s https://api.doras.to/user/tommerty/links)
+        echo "socials=$socials" >> $GITHUB_OUTPUT
+
+    - name: Update README
+      env:
+        SOCIALS: ${{ steps.fetch-socials.outputs.socials }}
+      run: |
+        # Remove existing socials between the comments
+        sed -i '/<!-- Social Start -->/,/<!-- Socials End -->/d' README.md
+
+        # Add new socials between the comments
+        socials=$(echo '${{ steps.fetch-socials.outputs.socials }}' | jq -c '.[] | select(.show == true) | "[" + .name + "](" + .url + ")"')
+        sed -i '/<!-- Social Start -->/a '"$socials"'' README.md
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "tommerty@github.com"
+        git config --local user.name "Tommerty"
+        git add README.md
+        git diff-index --quiet HEAD || git commit -m "Update socials in README"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
