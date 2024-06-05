@@ -13,38 +13,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4.1.6
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v4.0.2
-      with:
-        node-version: '18'
-
-    - name: Install dependencies
-      run: npm install node-fetch
-
     - name: Check Twitch live status
       id: twitch-status
-      env:
-        TWITCH_USERNAME: tommertyboi
       run: |
-        node -e "
-        const fetch = require('node-fetch');
-
-        fetch('https://api.twitch.tv/helix/streams?user_login=${{ env.TWITCH_USERNAME }}', {
-          headers: {
-            'Client-ID': 'kimne78kx3ncx6brgo4mv6wki5h1ko'
-          }
-        })
-          .then(response => response.json())
-          .then(data => {
-            const isLive = data.data.length > 0;
-            console.log('live_status=' + isLive);
-            process.exit(0);
-          })
-          .catch(error => {
-            console.error('Error checking live status:', error);
-            process.exit(1);
-          });
-        "
+        live_status=$(curl -s https://api.doras.to/links/twitch/tommertyboi | jq -r '.live')
+        echo "live_status=$live_status" >> $GITHUB_OUTPUT
 
     - name: Update README
       env:
@@ -52,7 +25,7 @@ jobs:
       run: |
         if [ "$LIVE_STATUS" == "true" ]; then
           if ! grep -q "Twitch Live Banner" README.md; then
-            sed -i '1i\[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommerty)' README.md
+            sed -i '1i\[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)' README.md
           fi
         else
           sed -i '/^!\[Twitch Live Banner/d' README.md
@@ -60,8 +33,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "tommerty@github.com"
+        git config --local user.name "Tommerty"
         git add README.md
         git diff-index --quiet HEAD || git commit -m "Update Twitch live status in README"
 
