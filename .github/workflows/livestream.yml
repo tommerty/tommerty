@@ -3,6 +3,7 @@ name: Twitch Live Status
 on:
   schedule:
     - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -35,7 +36,6 @@ jobs:
         else
          sed -i '/^!\[Twitch Live Banner/d' README.md
         fi
-
 
     - name: Commit changes
       run: |
