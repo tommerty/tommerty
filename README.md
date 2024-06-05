@@ -12,5 +12,11 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 ### My Socials (Fetched from my [Doras profile](https://doras.to/tommerty))
 
 <!-- Social Start -->
-
-<!-- Social End -->
+- [Join Doras](https://doras.to)
+- [GitHub](https://github.com/tommerty)
+- [YouTube](https://youtube.com/@dorasto)
+- [LinkedIn](https://www.linkedin.com/in/tommylundy/)
+- [Twitter](https://x.com/tommerty)
+- [Twitch Chat In VS Code](https://marketplace.visualstudio.com/items?itemName=Tommerty.twitchchat&ssr=false#review-details)
+- [StreamerBot Repository](https://github.com/tommerty/streamerbot-files)
+<!-- Socials End -->
