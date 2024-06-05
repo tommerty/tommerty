@@ -31,7 +31,8 @@ jobs:
 
         # Add new socials between the comments
         socials=$(echo '${{ steps.fetch-socials.outputs.socials }}' | jq -c '.[] | select(.show == true) | "[" + .name + "](" + .url + ")"')
-        sed -i '/<!-- Social Start -->/a '"$socials"'' README.md
+        escaped_socials=$(echo "$socials" | sed 's/"/\\"/g')
+        sed -i '/<!-- Social Start -->/a '"$escaped_socials"'' README.md
 
     - name: Commit changes
       run: |
