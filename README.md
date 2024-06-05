@@ -10,9 +10,6 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 - Outside of that, I'm building [Doras.to](https://doras.to), a platform for content creators and brands to consolidate everything together.
 
 ### My Socials (Fetched from my [Doras profile](https://doras.to/tommerty))
-<!-- Social Start -->
-
-<!-- Socials End -->
 
 ---
 
