@@ -9,6 +9,10 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 - In my professional life, I work here at :octocat: GitHub
 - Outside of that, I'm building [Doras.to](https://doras.to), a platform for content creators and brands to consolidate everything together.
 
+### Stats
+
+<p>&nbsp;<img align="center" src="https://github-stats.doras.to/?username=tommerty&theme=dark&show_icons=true&bg_color=ede3e3&text_color=000000&icon_color=000000&title_color=000000&hide_border=true&hide_rank=true&hide=stars," alt="tommerty" /></p>
+
 ### My Socials (Fetched from my [Doras profile](https://doras.to/tommerty))
 
 <!-- Social Start -->
