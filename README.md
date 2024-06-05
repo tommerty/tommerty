@@ -10,9 +10,6 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 - Outside of that, I'm building [Doras.to](https://doras.to), a platform for content creators and brands to consolidate everything together.
 
 ### My Socials
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tommerty&show_icons=true&locale=en" alt="tommerty" /></p>
-
 <!-- Social Start -->
 "[Join Doras](https://doras.to)"
 "[GitHub](https://github.com/tommerty)"
@@ -22,3 +19,5 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 "[Twitch Chat In VS Code](https://marketplace.visualstudio.com/items?itemName=Tommerty.twitchchat&ssr=false#review-details)"
 "[StreamerBot Repository](https://github.com/tommerty/streamerbot-files)"
 <!-- Socials End -->
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tommerty&show_icons=true&locale=en" alt="tommerty" /></p>
