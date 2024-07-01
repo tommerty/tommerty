@@ -23,12 +23,13 @@ jobs:
       env:
         LIVE_STATUS: ${{ steps.twitch-status.outputs.live_status }}
       run: |
+        echo "Live Status: $LIVE_STATUS"
         if [ "$LIVE_STATUS" == "true" ]; then
           if ! grep -q "Twitch Live Banner" README.md; then
             sed -i '1i\[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)' README.md
           fi
         else
-          sed -i '/\[![Twitch Live Banner](/assets/livebanner.png)](https:\/\/www.twitch.tv\/tommertyboi)/d' README.md
+          sed -i '/\[!\[Twitch Live Banner\](\/assets\/livebanner\.png)\]\(https:\/\/www\.twitch\.tv\/tommertyboi\)/d' README.md
         fi
 
     - name: Commit changes
