@@ -25,11 +25,9 @@ jobs:
       run: |
         echo "Live Status: $LIVE_STATUS"
         if [ "$LIVE_STATUS" == "true" ]; then
-          if ! grep -q "Twitch Live Banner" README.md; then
-            sed -i '1i\[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)' README.md
-          fi
+          sed -i '1s/^/[![Twitch Live Banner](\/assets\/livebanner.png)](https:\/\/www.twitch.tv\/tommertyboi)\n/' README.md
         else
-          sed -i '/\[!\[Twitch Live Banner\](\/assets\/livebanner\.png)\]\(https:\/\/www\.twitch\.tv\/tommertyboi\)/d' README.md
+          sed -i '/\[!\[Twitch Live Banner\](\/assets\/livebanner\.png)\](https:\/\/www\.twitch\.tv\/tommertyboi)/d' README.md
           echo "Removed Twitch Live Banner"
         fi
 
