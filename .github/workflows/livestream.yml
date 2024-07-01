@@ -28,7 +28,7 @@ jobs:
             sed -i '1i\[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)' README.md
           fi
         else
-          sed -i '/^!\[Twitch Live Banner/d' README.md
+          sed -i '/\[![Twitch Live Banner](/assets/livebanner.png)](https:\/\/www.twitch.tv\/tommertyboi)/d' README.md
         fi
 
     - name: Commit changes
