@@ -33,14 +33,20 @@ jobs:
           echo "Removed Twitch Live Banner"
         fi
 
-    - name: Commit changes
+    - name: Check for changes
       run: |
-        git config --local user.email "tommerty@github.com"
-        git config --local user.name "Tommerty"
-        git add README.md
-        git diff-index --quiet HEAD || git commit -m "Update Twitch live status in README"
+        git diff
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "Changes detected"
+        else
+          echo "No changes detected"
+        fi
 
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit changes
+      if: always()
+      run: |
+        git config --global user.email "tommerty@github.com"
+        git config --global user.name "Tommerty"
+        git add .
+        git commit -m "twitch update"
+        git push
