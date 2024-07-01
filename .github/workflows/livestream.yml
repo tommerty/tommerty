@@ -34,19 +34,20 @@ jobs:
         fi
 
     - name: Check for changes
+      id: check_changes
       run: |
-        git diff
-        if [ -n "$(git status --porcelain)" ]; then
-          echo "Changes detected"
+        git diff README.md
+        if [ -n "$(git status --porcelain README.md)" ]; then
+          echo "changes_detected=true" >> $GITHUB_OUTPUT
         else
-          echo "No changes detected"
+          echo "changes_detected=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Commit changes
-      if: always()
+      if: steps.check_changes.outputs.changes_detected == 'true'
       run: |
         git config --global user.email "tommerty@github.com"
         git config --global user.name "Tommerty"
-        git add .
-        git commit -m "twitch update"
+        git add README.md
+        git commit -m "Update Twitch Live Banner in README"
         git push
