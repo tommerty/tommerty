@@ -30,6 +30,7 @@ jobs:
           fi
         else
           sed -i '/\[!\[Twitch Live Banner\](\/assets\/livebanner\.png)\]\(https:\/\/www\.twitch\.tv\/tommertyboi\)/d' README.md
+          echo "Removed Twitch Live Banner"
         fi
 
     - name: Commit changes
