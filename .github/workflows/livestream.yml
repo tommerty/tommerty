@@ -31,7 +31,7 @@ jobs:
       run: |
         echo "Live Status: $LIVE_STATUS"
         if [ "$LIVE_STATUS" == "true" ]; then
-          sed -i "1s/^/[![Twitch Live Banner](${{ env.LIVE_BANNER_IMAGE }})](https:\/\/www.twitch.tv\/${{ env.TWITCH_USERNAME }})\n/" README.md
+          sed -i "1s|^|[![Twitch Live Banner](${{ env.LIVE_BANNER_IMAGE }})](https:\/\/www.twitch.tv\/${{ env.TWITCH_USERNAME }})\n|" README.md
         else
           sed -i "/\[!\[Twitch Live Banner\](${{ env.LIVE_BANNER_IMAGE }})\](https:\/\/www\.twitch\.tv\/${{ env.TWITCH_USERNAME }})/d" README.md
           echo "Removed Twitch Live Banner"
