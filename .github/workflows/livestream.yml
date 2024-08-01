@@ -1,7 +1,7 @@
 name: Twitch Live Status
 
 env:
-  TWITCH_USERNAME: machineosaur
+  TWITCH_USERNAME: tommertyboi
   LIVE_BANNER_IMAGE: /assets/livebanner.png
   GITHUB_USERNAME: Tommerty
   GITHUB_EMAIL: tommerty@github.com
