@@ -1,47 +1,42 @@
-name: Update Twitch Live Status
+name: Twitch Live Status
+
+env:
+  TWITCH_USERNAME: tommertyboi
+  LIVE_BANNER_IMAGE: /assets/livebanner.png
+  GITHUB_USERNAME: Tommerty
+  GITHUB_EMAIL: tommerty@github.com
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Run every 5 minutes
-  workflow_dispatch:  # Allow manual triggering
-
-# Environment variables for easy customization
-env:
-  TWITCH_USERNAME: tommertyboi
-  BANNER_IMAGE_URL: /assets/livebanner.png
-  TWITCH_URL: https://www.twitch.tv/tommertyboi
-  GIT_EMAIL: tommerty@github.com
-  GIT_NAME: Tommerty
+    - cron: '*/10 * * * *' # Runs every 10 minutes
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4.1.7  # Checkout the repository
 
-    # Check if the Twitch stream is live
-    - name: Check Twitch Status
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4.1.6
+
+    - name: Check Twitch live status
       id: twitch-status
       run: |
-        live_status=$(curl -s "https://api.doras.to/links/twitch/${{ env.TWITCH_USERNAME }}" | jq -r '.live')
+        live_status=$(curl -s https://api.doras.to/links/twitch/${{ env.TWITCH_USERNAME }} | jq -r '.live')
         echo "live_status=$live_status" >> $GITHUB_OUTPUT
 
-    # Update the README based on live status
     - name: Update README
       env:
         LIVE_STATUS: ${{ steps.twitch-status.outputs.live_status }}
       run: |
         echo "Live Status: $LIVE_STATUS"
         if [ "$LIVE_STATUS" == "true" ]; then
-          # Add live banner to the top of README if stream is live
-          sed -i "1s/^/[![Twitch Live Banner](${{ env.BANNER_IMAGE_URL }})](${{ env.TWITCH_URL }})\n/" README.md
+          sed -i "1s/^/[![Twitch Live Banner](${{ env.LIVE_BANNER_IMAGE }})](https:\/\/www.twitch.tv\/${{ env.TWITCH_USERNAME }})\n/" README.md
         else
-          # Remove live banner from README if stream is not live
-          sed -i "/\[!\[Twitch Live Banner\](${{ env.BANNER_IMAGE_URL }})\](${{ env.TWITCH_URL }})/d" README.md
+          sed -i "/\[!\[Twitch Live Banner\](${{ env.LIVE_BANNER_IMAGE }})\](https:\/\/www\.twitch\.tv\/${{ env.TWITCH_USERNAME }})/d" README.md
           echo "Removed Twitch Live Banner"
         fi
 
-    # Check if README was modified
     - name: Check for changes
       id: check_changes
       run: |
@@ -52,12 +47,11 @@ jobs:
           echo "changes_detected=false" >> $GITHUB_OUTPUT
         fi
 
-    # Commit and push changes if README was modified
     - name: Commit changes
       if: steps.check_changes.outputs.changes_detected == 'true'
       run: |
-        git config --global user.email "${{ env.GIT_EMAIL }}"
-        git config --global user.name "${{ env.GIT_NAME }}"
+        git config --global user.email "${{ env.GITHUB_EMAIL }}"
+        git config --global user.name "${{ env.GITHUB_USERNAME }}"
         git add README.md
         git commit -m "Update Twitch Live Banner in README"
         git push
