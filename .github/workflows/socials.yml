@@ -19,7 +19,7 @@ jobs:
     - name: Fetch socials
       id: fetch-socials
       run: |
-        socials=$(curl -s https://api.doras.to/user/tommerty/links)
+        socials=$(curl -s https://doras.to/api/user/tommerty/blocks)
         echo "socials=$socials" >> $GITHUB_OUTPUT
 
     - name: Update README
