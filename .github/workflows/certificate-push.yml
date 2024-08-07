@@ -1,0 +1,20 @@
+name: Trigger Certificates Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "certificates.md"
+      - ".github/workflows/certificate-push.yml"
+
+jobs:
+  trigger-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch event to 1-1 repo
+        uses: peter-evans/repository-dispatch@v3.0.0
+        with:
+          token: ${{ secrets.PAT }}
+          repository: tommerty/1-1
+          event-type: update-certificates
