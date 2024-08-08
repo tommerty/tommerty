@@ -17,11 +17,11 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 ### My Socials (Fetched from my [Doras profile](https://doras.to/tommerty))
 
 <!-- Social Start -->
-- [Join Doras](https://doras.to)
-- [GitHub](https://github.com/tommerty)
-- [YouTube](https://youtube.com/@dorasto)
-- [LinkedIn](https://www.linkedin.com/in/tommylundy/)
-- [Twitter](https://x.com/tommerty)
-- [Twitch Chat In VS Code](https://marketplace.visualstudio.com/items?itemName=Tommerty.twitchchat&ssr=false#review-details)
-- [StreamerBot Repository](https://github.com/tommerty/streamerbot-files)
+- [<img src="https://cdn.doras.to/doras/icons/dark/doras.webp" alt="Join Doras" width="20" height="20"> Join Doras](https://doras.to)
+- [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-github.svg" alt="GitHub" width="20" height="20"> GitHub](https://github.com/tommerty)
+- [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-youtube.svg" alt="YouTube" width="20" height="20"> YouTube](https://youtube.com/@dorasto)
+- [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-linkedin.svg" alt="LinkedIn" width="20" height="20"> LinkedIn](https://www.linkedin.com/in/tommylundy/)
+- [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-x.svg" alt="Twitter" width="20" height="20"> Twitter](https://x.com/tommerty)
+- [<img src="https://cdn.doras.to/doras/assets/83bda65b-8d42-4011-9bf0-ab23402776f2/e1c2a22c-51d4-41f5-ab4f-96bc5ccf51b3.png" alt="Twitch Chat In VS Code" width="20" height="20"> Twitch Chat In VS Code](https://marketplace.visualstudio.com/items?itemName=Tommerty.twitchchat&ssr=false#review-details)
+- [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-c-sharp.svg" alt="StreamerBot Repository" width="20" height="20"> StreamerBot Repository](https://github.com/tommerty/streamerbot-files)
 <!-- Socials End -->
