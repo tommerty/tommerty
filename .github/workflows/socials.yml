@@ -30,7 +30,8 @@ jobs:
         sed -i '/<!-- Social Start -->/,/<!-- Socials End -->/d' README.md
         
         # Add new socials between the comments
-        socials=$(curl -s https://doras.to/api/user/tommerty/blocks | jq -r '.[] | select(.show == true and .type == "link") | "- [<img src=\"" + .icon + "\" alt=\"" + .name + "\" width=\"20\" height=\"20\"> " + .name + "](" + .url + ")"')
+        socials=$(curl -s https://doras.to/api/user/tommerty/blocks | jq -r '.[] | select(.show == true and .type == "link") | "- [<img src=\"" + .icon + "\" alt=\"" + .name + "\" width=\"20\" height=\"20\" style=\"background-color: " + .colour.background + "; border-radius: 50%; padding: 2px;\"> " + .name + "](" + .url + ")"')
+
         echo "<!-- Social Start -->" >> README.md
         echo "$socials" >> README.md
         echo "<!-- Socials End -->" >> README.md
