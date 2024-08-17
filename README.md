@@ -1,5 +1,6 @@
 [![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
 [![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
+[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
 [![Me](/assets/banner.png)](https://doras.to/tommerty)
 ###### Status Checks
 [![Twitch Live Status](https://github.com/tommerty/tommerty/actions/workflows/livestream.yml/badge.svg)](https://github.com/tommerty/tommerty/actions/workflows/livestream.yml)
