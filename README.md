@@ -2,15 +2,9 @@
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 [![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
@@ -18,15 +12,9 @@ ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 [![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
@@ -34,15 +22,9 @@ ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 [![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
@@ -50,15 +32,49 @@ ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
-ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 [![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 [![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
+[![Twitch Live Banner](/assets/livebanner.png)](https://www.twitch.tv/tommertyboi)
+ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
 ssets/livebanner.png)](https://www.twitch.tv/tommertyboi)/d
