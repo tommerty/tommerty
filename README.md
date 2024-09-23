@@ -17,7 +17,6 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 ### My Socials (Fetched from my [Doras profile](https://doras.to/tommerty))
 
 <!-- Social Start -->
-- [<img src="" alt="Link" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Link]()
 - [<img src="https://cdn.doras.to/doras/icons/dark/doras.webp" alt="Join Doras" width="20" height="20" style="background-color: #e6e6e6; border-radius: 50%; padding: 2px;"> Join Doras](https://doras.to)
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-github.svg" alt="GitHub" width="20" height="20" style="background-color: #111111; border-radius: 50%; padding: 2px;"> GitHub](https://github.com/tommerty)
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-youtube.svg" alt="YouTube" width="20" height="20" style="background-color: #ee180e; border-radius: 50%; padding: 2px;"> YouTube](https://youtube.com/@dorasto)
