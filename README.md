@@ -17,9 +17,12 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 ### My Socials (Fetched from my [Doras profile](https://doras.to/tommerty))
 
 <!-- Social Start -->
-- [<img src="https://cdn.doras.to/doras/icons/light/doras.webp" alt="Join Doras" width="20" height="20" style="background-color: rgb(37, 37, 37); border-radius: 50%; padding: 2px;"> Join Doras](https://doras.to)
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-github.svg" alt="GitHub" width="20" height="20" style="background-color: #111111; border-radius: 50%; padding: 2px;"> GitHub](https://github.com/tommerty)
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-youtube.svg" alt="YouTube" width="20" height="20" style="background-color: #ee180e; border-radius: 50%; padding: 2px;"> YouTube](https://youtube.com/@dorasto)
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-linkedin.svg" alt="LinkedIn" width="20" height="20" style="background-color: #0965c2; border-radius: 50%; padding: 2px;"> LinkedIn](https://www.linkedin.com/in/tommylundy/)
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-x.svg" alt="Twitter" width="20" height="20" style="background-color: #0683e3; border-radius: 50%; padding: 2px;"> Twitter](https://x.com/tommerty)
+- [<img src="https://cdn.doras.to/doras/icons/dark/doras.webp" alt="Social Icon" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Social Icon](https://doras.to)
+- [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-x.svg" alt="Social Icon" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Social Icon](https://x.com/tommerty)
+- [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-github.svg" alt="Social Icon" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Social Icon](https://github.com/tommerty)
+- [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-twitch.svg" alt="Social Icon" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Social Icon](https://twitch.tv/tommertyboi)
 <!-- Socials End -->
