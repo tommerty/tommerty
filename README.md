@@ -20,6 +20,5 @@ Sometimes it's not the best solution, but it's a solution nonetheless.
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-bluesky.svg" alt="Social Icon" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Social Icon](https://bsky.app/profile/tommerty.doras.to)
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-github.svg" alt="Social Icon" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Social Icon](https://github.com/tommerty)
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-twitch.svg" alt="Social Icon" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Social Icon](https://twitch.tv/tommertyboi)
-- [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/brand-linkedin.svg" alt="Social Icon" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Social Icon](https://www.linkedin.com/in/tommylundy/)
 - [<img src="https://unpkg.com/@tabler/icons@3.5.0/icons/outline/news.svg" alt="Social Icon" width="20" height="20" style="background-color: ; border-radius: 50%; padding: 2px;"> Social Icon](https://doras.to/tommerty/the-linux-project)
 <!-- Socials End -->
