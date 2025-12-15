@@ -6,8 +6,9 @@
 Solving problems is probably my favourite passion. There's nothing like curing a 7hr long headache with a solution that works. :hurtrealbad: 
 Sometimes it's not the best solution, but it's a solution nonetheless.
 
-- In my professional life, I work here at :octocat: GitHub
-- Outside of that, I'm building [Doras.to](https://doras.to), a platform for content creators and brands to consolidate everything together.
+- :octocat: GitHub & Microsoft alumni
+- Currently working at CodeRabbit
+- Building [Doras.to](https://doras.to)
 
 
 ### Stats
